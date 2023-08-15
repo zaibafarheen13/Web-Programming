@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Application Form</title>
+</head>
+<body bgcolor="#301934">
+<form action="#" name="StudentRegistration">
+
+<table cellpadding="1" width="40%" height="30%" bgcolor="thistle" align="center"
+cellspacing="2">
+
+<tr>
+	<td colspan=2>
+	<center><font size="20"><b>Employment Application Form</b></font><br>
+	<br>
+	<br></center>
+	</td>
+</tr>
+
+<tr>
+	<td>First Name</td>
+	<td><input type=text name="firstname" size="30"
+	 placeholder="first_name"></td>
+</tr>
+
+<tr>
+	<td>Last Name</td>
+	<td><input type="text" name="lastname" size="30"
+	placeholder="last_name"></td>
+</tr>
+
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress" size="30"></td>
+</tr>
+
+<tr>
+	<td>Portfolio Website</td>
+	<td><input type="url" name="url" size="30"
+ 	placeholder="rleonardi.com"></td>
+</tr>
+
+<tr>
+	<td>DOB</td>
+	<td><input type="date" name="dob" size="30"></td>
+</tr>
+
+<tr>
+	<td>MobileNo</td>
+	<td><label><input type="tel" name="mobile_no" 
+	size="30" placeholder="1234 123412"
+	pattern="[0-9]{4}-[0-9]{6}"></label></td>
+</tr>
+
+
+<tr>
+	<td>Email-Id</td>
+	<td><input type="email" name="email_id" 
+	placeholder="abc.123@email.com" size="30"></td>
+</tr>
+
+<tr>
+<td>Salary requirements</td>
+<td><input type="number" name="Salary" size="30"></td>
+</tr>
+
+<tr>
+<td>City</td>
+	<td><select name="City"><br>
+	<option value="-1" selected>selected..</option>
+	<option value="New Delhi">New Delhi</option>
+	<option value="Mumbai">Mumbai</option>
+	<option value="Bangalore">Bangalore</option>
+	<option value="Chennai">Chennai</option>
+	<option value="Hyderabad">Hyderabad</option>
+	</select></td>
+</tr>
+
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" size="30"></td>
+</tr>
+
+
+<tr>
+	<td>Position you are applying for *</td>
+	<td><select name="Position"><br>
+	<option value="-1" selected>select..</option>
+	<option value="Developer">Developer</option>
+	<option value="Designer">Designer</option>
+	<option value="HR">HR</option>
+	<option value="Technician">Technician</option>
+	</select></td>
+</tr>
+
+ <tr> 
+ 	<td>
+		<label>Are you willing to relocate?</label>
+		<input name="Relocate" type="radio" value="Yes" checked="checked"/> Yes      
+		<input name="Relocate" type="radio" value="No"/> No      
+	</td> <br>
+</tr> 
+
+<tr>
+	<td>Date available for work<td>
+	<input type="date" name="daw" size="30"></td>
+</tr>
+
+<tr>
+<td>Last company you worked for</td>
+<td><input type="text" name="company" size="30"></td>
+</tr>
+
+<tr>
+	<td>How did you hear us</td>
+	<td><select name="News"><br>
+	<option value="-1" selected>select..</option>
+	<option value="Linkedln">Linkedln</option>
+	<option value="Event">Event</option>
+	<option value="Social Media">Social Media</option>
+	<option value="Company Website">Company Website</option>
+	<option value="Family Friend">Family Friend</option>
+	</select></td>
+</tr>
+
+ <tr>
+ 	 <td>
+		<label>Comments / Questions</label>
+		<textarea name="comments" rows="7" cols="40"></textarea><br>
+	</td> 
+</tr> 
+
+<tr>
+	<td>
+	<label>Upload your Resume</label>
+	<input type="file" name="resume_file"></td>
+</tr>
+
+<tr>
+<td><input type="reset"></td>
+<td colspan="2">
+	<input type="submit" value="Submit Form" /></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
